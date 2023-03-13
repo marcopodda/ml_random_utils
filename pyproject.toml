@@ -41,9 +41,6 @@ line-length = 120
 [tool.pylint.format]
 max-line-length = 120
 
-[tool.pylint.format]
-max-line-length = 120
-
 [tool.pylint.MASTER]
 
 # A comma-separated list of package or module names from where C extensions may
