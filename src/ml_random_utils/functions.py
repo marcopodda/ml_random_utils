@@ -1,8 +1,8 @@
 from functools import reduce
-from typing import Callable
+from typing import Sequence, Callable, Any
 
 
-def compose(*funcs: list[Callable]) -> Callable:
+def compose(*funcs: Sequence[Callable[..., Any]]) -> Callable[..., Any]:
     """
     Composes a list of functions in the order they appear as arguments.
 

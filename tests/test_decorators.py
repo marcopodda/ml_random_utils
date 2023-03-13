@@ -24,18 +24,6 @@ def test_parallelize_n_jobs(capsys):
     assert f"n_jobs={n_jobs}" in err
 
 
-# def test_parallelize_backend(capsys):
-#     def square(number):
-#         return number**2
-
-#     decorated = parallelize(verbose=1, backend="threading")(square)
-#     data = list(range(5))
-#     _ = decorated(data)
-
-#     _, err = capsys.readouterr()
-#     assert "ThreadingBackend" in err
-
-
 def test_parallelize_backend(capsys):
     def square(number):
         return number**2
