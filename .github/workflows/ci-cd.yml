@@ -43,6 +43,11 @@ jobs:
 
     # Set up operating system
     runs-on: ubuntu-latest
+    
+    # set permissions
+    permissions:
+      packages: write
+      contents: write
 
     # Define job steps
     steps:
