@@ -10,7 +10,6 @@ from ml_random_utils.dicts import (
 
 # pylint:disable=redefined-outer-name
 
-
 @pytest.fixture
 def adict():
     return {1: "a", 2: "b", 3: "c"}
