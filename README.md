@@ -2,6 +2,8 @@
 
 Random utilities I use in ML projects.
 
+[![ci-cd](https://github.com/marcopodda/ml_random_utils/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/marcopodda/ml_random_utils/actions/workflows/ci-cd.yml)
+
 ## Installation
 
 ```bash
