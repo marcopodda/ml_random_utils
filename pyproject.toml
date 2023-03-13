@@ -4,7 +4,7 @@ description = "Random utilities I use in ML projects."
 license = "MIT"
 name = "ml_random_utils"
 readme = "README.md"
-version = "0.0.1"
+version = "0.0.2"
 
 [tool.poetry.dependencies]
 numpy = "^1.24.2"
